@@ -20,6 +20,7 @@ public class restart {
             System.out.println("bacha hai tu");
         }*/
        // check odd or even****
+       /* 
        int n = sc.nextInt();
        if (n%2==0) {
         System.out.println("is even");
@@ -27,7 +28,28 @@ public class restart {
         
        }else{
         System.out.println("it is odd");
-       }
+       }*/
+      // check a student pass or fail
+      /* 
+      int marks = 44;
+      String result = marks>=33? "PASS":"FAIL";
+      System.out.println(result);
+
+      */
+     // understanding switch
+     int n = 4;
+     switch (n) {
+        case 1:System.out.println("burger");
+            
+            break;
+        case 2:System.out.println("momos");
+            break;
+        case 3:System.out.println("uthja bhai job bhi dhundhni h");
+            break;    
+     
+        default:System.out.println("kiraya khao");
+            break;
+     }
 
     }
 }
